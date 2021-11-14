@@ -1,0 +1,63 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+* {
+  box-sizing: border-box;
+}
+.bg-image {
+  background-image: url("BG.png");
+  /*EFECTO PARA LA IMAGEN*/
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+  height: 100%; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bg-text {
+  background-color: rgba(247, 229, 222, 0.719); 
+  color: black;
+  font-weight: bold;
+  position: absolute;
+  top: 360px;
+  left:5%;
+  transform: translate(-50%, -50%);
+  width: 270px;
+  height: 100%;
+  padding: 20px;
+  text-align: center ;
+}
+/*ver porque no lo reconoce*/
+.logo2{
+  width: 150px;
+  height: 150px;
+}
+.buscar{
+	border: 1px solid #D6BA85;
+	padding: .6rem 3.0rem;
+	color:black;
+	text-decoration: none;
+	border-radius: 8px;
+	background-color: rgb(230, 214, 214);
+	font-weight: bold;
+  margin-left: 23px;
+}
+ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  width: 250px;
+  
+}
+li a {
+  display: block;
+  color: #000;
+  padding: 15px 18px;
+  text-decoration: none;
+}
+li a:hover {
+  background-color: rgb(230, 214, 214);
+  color: black;
+}
