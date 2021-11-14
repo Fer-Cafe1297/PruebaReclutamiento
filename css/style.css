@@ -116,3 +116,9 @@ text-transform: none;
  width: 160px;
  height: 98px;
 }
+.filas{
+ display: grid;
+ grid-template-columns: repeat(3, 1fr);
+ grid-gap: 10px;
+ margin-right: 0fr;
+}
