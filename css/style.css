@@ -16,7 +16,7 @@ body, html {
   background-repeat: no-repeat;
   background-size: cover;
 }
-.bg-text {
+.bg-texto {
   background-color: rgba(247, 229, 222, 0.719); 
   color: black;
   font-weight: bold;
@@ -60,4 +60,33 @@ li a {
 li a:hover {
   background-color: rgb(230, 214, 214);
   color: black;
+}
+.bg-texto-general {
+  color: black;
+  font-weight: bold;
+  position: absolute;
+  top: 350px;
+  left:922px;
+  transform: translate(-50%, -50%);
+  width: 1310px;
+  height: 100%;
+  padding: 20px;
+}
+.btn-agregar{
+  color: black;
+	text-decoration: none;
+	border-radius: 26px;
+	background-color: #FFFFFF;
+	font-weight: bold;
+  padding: 15px 24px;
+  display: flex;
+  flex-direction: row;
+  width: 302px;
+}
+.etapas{
+  display: flex;
+  flex-direction: column;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  text-align: left;  
 }
