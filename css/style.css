@@ -268,8 +268,8 @@ width: 600px;
   position: absolute;
   width: 220px;
   height: 29px;
-  left: 30px;
-  margin-top: -5px;
+  left:5px;
+  margin-top: -0px;
   color:#4F4F4F;
   font-size: 13px;
 }
@@ -337,7 +337,6 @@ width: 600px;
 }
 .lugar-del-boton-pagar{
   margin-left: 110px;
-  
  }
  .imagen-pagar{
   width: 140px;
