@@ -107,7 +107,7 @@ p{
   text-transform: none;
 }
 .contenedor-card-item { 
- margin-top: 5px; 
+ margin-top: 8px; 
  background-color: #FFFFFF !important;
  border-radius: 16px;
  width: 160px;
@@ -280,3 +280,4 @@ width: 600px;
   color:#3B1F16;;
   font-size: 17px;
 }
+
