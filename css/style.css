@@ -17,7 +17,6 @@ body, html {
   background-size: cover;
 }
 .bg-texto {
-  background-color: rgba(247, 229, 222, 0.719); 
   color: black;
   font-weight: bold;
   position: absolute;
@@ -371,4 +370,63 @@ width: 600px;
   .boton-cancelar-lugar{
     margin-top: -60px;
 }
+/*Responsive para movil*/
+.btn-menu{
+	background-color: transparent;
+	font-size: 2rem;
+	border: none;
+	color: black;
+	margin-left: 200px;
+  margin-top: -565px;
+  position: absolute;
+}
+.btn-menu svg{
+	width: 32px;
+	height: 32px;
+}
+.contenido-menu{
+	display: block;
+}
+.btn-menu{
+  display: none;
+}
+@media screen and (max-width: 820px){
+	.contenido-menu{
+		display: none;  
+	}
+  .boton-menu{
+    margin-left: 200px;
+    margin-top: -565px;
+    position: absolute;
+  }
+.btn-menu{
+		display: block;
+	}
+  .bg-texto-general {
+    left:760px;
+    height: 740px;
+    color: black;
+  }
+  .body, html{
+    height: 700px;
+  }
+}
+@media screen and (min-width: 695px) {
+  .bg-texto {
+    background-color: rgba(247, 229, 222, 0.719);
+    color: black;
+    font-weight: bold;
+    position: absolute;
+    top: 360px;
+    left:5%;
+    transform: translate(-50%, -50%);
+    width: 270px;
+    height: 100%;
+    padding: 20px;
+    text-align: center ;
+  }
+}
+  
+
+
 
