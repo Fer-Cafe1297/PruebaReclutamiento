@@ -17,7 +17,7 @@
 				<img src="./img/logo2.png" width="110" height="60" >
             </a>
         <p></p>
-            <button class="buscar">Buscar 
+            <button class="buscar"> <span >Buscar </span> 
                 <i class="fas fa-search" ></i>
             </button>
             <nav >
@@ -43,8 +43,9 @@
                     Ayuda</a></li>
                 <hr color="black" width="160px">
                 <li><a href="#">
-                    <img src="./img/close_24px.png" >
-                    Cerrar sesión</a></li>
+                    <img src="./img/close_24px.png" class="imagen-menu">
+                    <span class="distancia-texto-menu">
+                      Cerrar </span></a></li>
              </ul>  
             </nav>
         </div>
@@ -52,22 +53,52 @@
         <section class="bg-texto-general">
             <div>
                 <a href="#AgregarPedido" class="btn-agregar" >
-                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <svg  width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path fill-rule="evenodd" clip-rule="evenodd" d="M0 10C0 4.48 4.48 0 10 0C15.52 0 20 4.48 20 10C20 15.52 15.52 20 10 20C4.48 20 0 15.52 0 10ZM11 11H15V9H11V5H9V9H5V11H9V15H11V11Z" fill="#3B1F16"/>
-                        </svg>
-                    AGREGAR PEDIDO</a>
+                        </svg> <span class="distancia-texto">
+                    AGREGAR PEDIDO </span></a>
                     <div id="AgregarPedido" class="modalDialogo">
                         <a href="#cerrar" class="close">Cerrar</a>
 		                
-                    </div>
-            </div>
+                        <section class="crearpedidos">
+                          <div class="crearpedido">
+                             <h3>Todos los productos</h3>
+                              <div class="column" draggable="true">
+                                  <header class="filas-crear-pedido">
+                                      <div class="contenedor-de-pedidos">
+                                              <div class="info">
+                                                <p>AA456  </p>
+                                                <hr>
+                                                <select multiple>
+                                                  <option>5 Sandwich</option>
+                                                  <option>2 Café</option>  
+                                                </select>
+                                              </div> 
+                                      </div>
+          
+                                      <div class="contenedor-de-pedidos">
+                                          <div class="info">
+                                            <p>AA456 efemenias </p>
+                                            <hr>
+                                            <select>
+                                              <option>5 Sandwich</option>
+                                              <option>2 Café</option>  
+                                            </select>
+                                          </div> 
+                                  </div>
+          
+                                  <div class="contenedor-de-pedidos">
+                                      <div class="info">
+                                        <p>AA456 efemenias </p>
+                                        <hr>
+                                        <select>
+                                          <option>5 Sandwich</option>
+                                          <option>2 Café</option>  
+                                        </select>
+                                      </div> 
+                                  </div>
 
-            <section class="etapas">
-                <div class="contenedor">
-                   <h3>Cola</h3>
-                    <div class="column" draggable="true">
-                        <header class="filas">
-                            <div class="contenedor-card-item">
+                                  <div class="contenedor-de-pedidos">
                                     <div class="info">
                                       <p>AA456 efemenias </p>
                                       <hr>
@@ -76,13 +107,38 @@
                                         <option>2 Café</option>  
                                       </select>
                                     </div> 
+                                </div>
+          
+                                  </header>
+                              </div>
+                          </div>
+                      </section>    
+
+
+                    </div>
+            </div>
+
+            <section class="etapas ">
+                <div class="contenedor" >
+                   <h3>Cola</h3>
+                    <div class="column" draggable="true">
+                        <header class="filas">
+                            <div class="contenedor-card-item" >
+                                    <div class="info">
+                                      <p>AA456  <span class="estilo-efemenias">efemenias</span> </p>
+                                      <hr size="2px" color= "#D6BA85">
+                                      <select class="select-pedido" size="2">
+                                        <option>5 Sandwich</option>
+                                        <option>2 Café</option>  
+                                      </select>
+                                    </div> 
                             </div>
 
                             <div class="contenedor-card-item">
                                 <div class="info">
-                                  <p>AA456 efemenias </p>
-                                  <hr>
-                                  <select>
+                                  <p>45456 <span class="estilo-efemenias">efemenias</span> </p>
+                                  <hr size="2px" color= "#D6BA85">
+                                  <select class="select-pedido" size="2">
                                     <option>5 Sandwich</option>
                                     <option>2 Café</option>  
                                   </select>
@@ -91,9 +147,9 @@
 
                         <div class="contenedor-card-item">
                             <div class="info">
-                              <p>AA456 efemenias </p>
-                              <hr>
-                              <select>
+                              <p>45458 <span class="estilo-efemenias">efemenias</span> </p>
+                              <hr size="2px" color= "#D6BA85">
+                              <select class="select-pedido" size="2">
                                 <option>5 Sandwich</option>
                                 <option>2 Café</option>  
                               </select>
@@ -106,13 +162,13 @@
 
                     <h3>En preparación</h3>
                     <div class="column" draggable="true">
-
                         <header class="filas">
                             <div class="contenedor-card-item">
                                     <div class="info">
-                                      <p>AA456 efemenias </p>
-                                      <hr>
-                                      <select>
+                                      <p>AA454 
+                                      <span class="estilo-efemenias">efemenias</span> </p>
+                                      <hr size="2px" color= "#D6BA85">
+                                      <select class="select-pedido" size="2">
                                         <option>5 Sandwich</option>
                                         <option>2 Café</option>  
                                       </select>
@@ -125,9 +181,10 @@
                         <header class="filas">
                             <div class="contenedor-card-item">
                                     <div class="info">
-                                      <p>AA456 efemenias </p>
-                                      <hr>
-                                      <select>
+                                      <p>AA453
+                                        <span class="estilo-efemenias">efemenias</span> </p>
+                                      <hr size="2px" color= "#D6BA85">
+                                      <select class="select-pedido" size="2">
                                         <option>5 Sandwich</option>
                                         <option>2 Café</option>  
                                       </select>
@@ -141,9 +198,10 @@
                         <header class="filas">
                             <div class="contenedor-card-item">
                                     <div class="info">
-                                      <p>AA456 efemenias </p>
-                                      <hr>
-                                      <select>
+                                      <p>AA456 
+                                        <span class="estilo-efemenias">efemenias</span> </p>
+                                        <hr size="2px" color= "#D6BA85">
+                                        <select class="select-pedido" size="2">
                                         <option>5 Sandwich</option>
                                         <option>2 Café</option>  
                                       </select>

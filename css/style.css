@@ -82,6 +82,10 @@ li a:hover {
   display: flex;
   flex-direction: row;
   width: 302px;
+  margin: 8px;
+}
+.distancia-texto{
+  margin-left: 18px;
 }
 .etapas{
   display: flex;
@@ -94,10 +98,8 @@ li a:hover {
 [draggable] {
   user-select: none;
 }
-
 .column:hover {
   border: 2px dotted #666666;
-  background-color: #ccc;
   border-radius: 10px;
   box-shadow: inset 0 0 3px #000;
   cursor: move;
@@ -106,23 +108,26 @@ p{
   color: black;
   text-transform: none;
 }
-h5{
-color: gold;
-text-transform: none;
-}
-.contenedor-card-item{
- background-color: #FFFFFF;
+.contenedor-card-item { 
+ margin-top: 5px; 
+ background-color: #FFFFFF !important;
  border-radius: 16px;
  width: 160px;
- height: 98px;
+ height: 90px;
+ margin-left: 20px;
 }
 .filas{
  display: grid;
- grid-template-columns: repeat(3, 1fr);
+ grid-template-columns: repeat(8, 1fr);
  grid-gap: 10px;
  margin-right: 0fr;
+ height: 101px;
 }
-
+.column {
+  background-color: rgba(255, 255, 255, 0.25);
+  border-radius: 32px;
+  height: 100px;
+}
 /**/
 .modalDialogo {
 	position: fixed;
@@ -139,14 +144,14 @@ text-transform: none;
 	pointer-events: none;
 }
 .modalDialogo:target {
-
+	opacity:1;
 	pointer-events: auto;
 }
 .modalDialogo > div {
-	width: 400px;
+	width: 300px;
 	position: relative;
 	margin: 10% auto;
-	padding: 5px 20px 13px 20px;
+	padding: 5px 25px 13px 20px;
 	border-radius: 10px;
 	background: #fff;
 	background: -moz-linear-gradient(#fff, #999);
@@ -156,3 +161,39 @@ text-transform: none;
   -moz-transition: opacity 400ms ease-in;
   transition: opacity 400ms ease-in;
 }
+.crearpedido{
+color: #FFFFFF;
+width: 600px;
+}
+.contenedor-de-pedidos{
+  background-color: #FFFFFF;
+  border-radius: 16px;
+  width: 160px;
+  height: 98px;
+ }
+ .filas-crear-pedido{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+  margin-right: 0fr;
+ }
+ .select-pedido{
+  background-color: transparent;
+  border: none;
+ }
+ .estilo-efemenias{
+  color:#D6BA85 ;
+  text-transform: none;
+  font-size: 12px;
+  margin: 12px;
+  }
+ p{
+  text-align: center;
+  font-size: 14px;
+  }
+  .info{
+    text-align: center;
+    height: 20px ;
+  }
+ 
+  
