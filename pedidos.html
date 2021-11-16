@@ -166,8 +166,8 @@
                     <div class="column" draggable="true">
                         <header class="filas">
                         
-                            <div class="contenedor-card-item"  >
-                              <a href="#pagar">
+                            <div class="contenedor-card-item">
+                              <a href="#pagar" class="referencia-pagar">
                                     <div class="info">
                                       <p>AA456  <span class="estilo-efemenias">efemenias</span> </p>
                                       <hr size="2px" color= "#D6BA85">
@@ -179,7 +179,7 @@
                             </div>
                        
                             <div class="contenedor-card-item">
-                              <a href="#pagar">
+                              <a href="#pagar" class="referencia-pagar">
                                 <div class="info">
                                   <p>45456 <span class="estilo-efemenias">efemenias</span> </p>
                                   <hr size="2px" color= "#D6BA85">
@@ -191,7 +191,7 @@
                         </div>
 
                         <div class="contenedor-card-item">
-                          <a href="#pagar">
+                          <a href="#pagar" class="referencia-pagar">
                             <div class="info">
                               <p>45458 <span class="estilo-efemenias">efemenias</span> </p>
                               <hr size="2px" color= "#D6BA85">
@@ -210,7 +210,7 @@
                     <div class="column" draggable="true">
                         <header class="filas">
                             <div class="contenedor-card-item">
-                              <a href="#pagar">
+                              <a href="#pagar" class="referencia-pagar">
                                     <div class="info">
                                       <p>AA454 
                                       <span class="estilo-efemenias">efemenias</span> </p>
@@ -226,8 +226,8 @@
                     <h3>Finalizado</h3>
                     <div class="column" draggable="true">
                         <header class="filas">
-                            <div class="contenedor-card-item">
-                              <a href="#pagar">
+                            <div class="contenedor-card-item" >
+                              <a href="#pagar" class="referencia-pagar">
                                     <div class="info">
                                       <p>AA453
                                         <span class="estilo-efemenias">efemenias</span> </p>
@@ -243,8 +243,8 @@
                     <h3>Entregado</h3>
                     <div class="column" draggable="true">
                         <header class="filas">
-                            <div class="contenedor-card-item">
-                              <a href="#pagar">
+                            <div class="contenedor-card-item" >
+                              <a href="#pagar" class="referencia-pagar">
                                     <div class="info">
                                       <p>AA456 
                                         <span class="estilo-efemenias">efemenias</span> </p>
@@ -263,8 +263,8 @@
     </div>
 
     
-      <div id="pagar" class="modalDialogo">
-        <div class="modal-contenido">
+      <div id="pagar" class="modalDialogo-pagar">
+        <div>
           <a href="#cerrar" class="close btn-cerrar">
             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M19 6.41L17.59 5L12 10.59L6.41 5L5 6.41L10.59 12L5 17.59L6.41 19L12 13.41L17.59 19L19 17.59L13.41 12L19 6.41Z" fill="#3B1F16"/>
@@ -273,25 +273,35 @@
           </a>              
           <section >
             <div >
-               <h3 class="Todos-los-pedidos">PEDIDO AA546</h3>                              
-               <div>
-                <header class="filas-crear-pedido">
-                        
-                    
+               <h3 >PEDIDO #AA546</h3>                              
+                <header class="filas-pagar-pedido">
+
+                  <div class="tarjeta-pagar">
+                  <img src="./img/image1.png" class="imagen">
+                  <p> CLUB SANDWICH</p>
+                  <p>$ 60</p>
+                  <input class="cantidad-de-pedidos" type="text" value="2">
+                  </div>
                  
-                    
-                    <footer class="color-footer">                             
-                      <div class="detalles-del-pedido">
-                         <p style="color: #4F4F4F;">TOTAL A PAGAR</p>
-                         <P >$84</P>
-                      </div>
-                      <div class="lugar-del-boton">
-                        <a href="#pedir" class="close btn-crear-pedido"> PAGAR</span>
-                        </a>
-                      </div>
-                    </footer>                         
+                  <div class="tarjeta-pagar">
+                  <img src="./img/image1-2.png" class="imagen">
+                  <p> CAFÉ</p>
+                  <p>$ 24</p>
+                  <input class="cantidad-de-pedidos" type="text" value="2">
+                  </div>
+                 
+                                           
                 </header>
-             </div>
+                <footer class="color-footer-pagar">                             
+                  <div class="detalles-del-pedido">
+                     <p style="color: #4F4F4F;">TOTAL A PAGAR</p>
+                     <P >$84</P>
+                  </div>
+                  <div class="lugar-del-boton">
+                    <a href="#pedir" class="close btn-crear-pedido"> PAGAR</span>
+                    </a>
+                  </div>
+                </footer>
           </section>    
         </div>  
       </div>
