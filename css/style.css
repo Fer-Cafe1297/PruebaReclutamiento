@@ -324,7 +324,51 @@ width: 600px;
  .color-footer-pagar{
   background: #D6BA85;
   border-radius: 26px 0px 0px 26px; 
-  width: 677PX; 
-  margin-top: 467px;
-  height: 80px;
+  width: 670PX; 
+  margin-top: 470px;
+  height: 110px;
 }
+.btn-pagar-pedido{
+  background: #3B1F16;
+  border-radius: 26px;
+  color: #FFFFFF;
+  text-decoration: none;
+  padding: 15px 24px;
+  margin-left: 420px;
+}
+.lugar-del-boton-pagar{
+  margin-left: 110px;
+  
+ }
+ .imagen-pagar{
+  width: 140px;
+  height: 80px;
+  border-radius: 8px;
+ }
+ .titulo-del-producto-a-cancelar{
+  margin-right: 205px;
+  margin-top: -80px;
+ }
+ .titulo-del-producto-a-cancelar-cafe{
+  margin-right: 285px;
+  margin-top: -80px;
+ }
+ .precio-a-cancelar{
+  margin-right: -555px;
+  margin-top: 50px;
+ }
+ .pedido-a-pagar{
+    background: #3B1F16;
+    border-radius: 26px;
+    width: 68px;
+    height: 32px;
+    bottom: 8px;
+    color: #FFFFFF;
+    justify-content: center;
+    text-align: center;
+    margin-left: 160px;
+  }
+  .boton-cancelar-lugar{
+    margin-top: -60px;
+}
+
