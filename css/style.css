@@ -1,7 +1,7 @@
 body, html {
   height: 100%;
   margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 * {
   box-sizing: border-box;
@@ -128,54 +128,109 @@ p{
   border-radius: 32px;
   height: 100px;
 }
-/**/
 .modalDialogo {
 	position: fixed;
 	top: 0;
 	right: 0;
 	bottom: 0;
-	left: 0;
-	background: rgb(255, 255, 255);
-	z-index: 99999;
+	left: -1200px;
+	background-color: rgba(255, 255, 255, 0.45);
 	opacity:0;
-	-webkit-transition: opacity 400ms ease-in;
-	-moz-transition: opacity 400ms ease-in;
-	transition: opacity 400ms ease-in;
+  transition: all 2s;
 	pointer-events: none;
 }
 .modalDialogo:target {
+  background: #FFFFFF;
 	opacity:1;
 	pointer-events: auto;
+  width: 670px;
+  height: 732px;
+  top: 0;
+  border-radius: 26px 0px 0px 26px;
+  left: 656px;
 }
-.modalDialogo > div {
-	width: 300px;
-	position: relative;
-	margin: 10% auto;
-	padding: 5px 25px 13px 20px;
-	border-radius: 10px;
-	background: #fff;
-	background: -moz-linear-gradient(#fff, #999);
-	background: -webkit-linear-gradient(#fff, #999);
-	background: -o-linear-gradient(#fff, #999);
-  -webkit-transition: opacity 400ms ease-in;
-  -moz-transition: opacity 400ms ease-in;
-  transition: opacity 400ms ease-in;
+.btn-cerrar{
+  color: black;
+	text-decoration: none;
+	border-radius: 26px;
+	background-color: #FFFFFF;
+	font-weight: bold;
+  padding: 15px 24px;
+  display: flex;
+  flex-direction: row;
+  width: 194px;
+  height: 54px;
+  margin: 8px;
+  margin-top: 20px;
+  box-shadow: 1px 1px 1px 1px gray;
+}
+.btn-cerrar:hover{
+  background: #FFFFFF;
+	box-shadow: 0px 1px 12px rgba(0, 0, 0, 0.25);
+}
+.Todos-los-pedidos{
+  color: black;
+  text-transform:uppercase;
+  margin-left: -340px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  line-height: 29px;
 }
 .crearpedido{
 color: #FFFFFF;
 width: 600px;
 }
+
 .contenedor-de-pedidos{
   background-color: #FFFFFF;
   border-radius: 16px;
-  width: 160px;
-  height: 98px;
+  width: 140px;
+  height: 80px;
  }
  .filas-crear-pedido{
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(4, 150px);
   grid-gap: 10px;
-  margin-right: 0fr;
+  margin-right: 10px;
+  height: 50px;
+ }
+.btn-menos-mas{
+/* Marrón */
+  background: #3B1F16;
+  border-radius: 26px;
+  bottom: 8px;
+  color: #FFFFFF;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+ }
+ .cantidad-de-pedidos{
+  /* Marrón */
+    background: #3B1F16;
+    border-radius: 26px;
+    width: 68px;
+    height: 32px;
+    bottom: 8px;
+    color: #FFFFFF;
+    justify-content: center;
+    text-align: center;
+  }
+.contenedor-general-de-la-tarjeta{
+  margin-top: 10px; 
+  background-color: #FFFFFF !important;
+  width: 156px;
+  height: 178px;
+  margin-left: 20px;
+  border: 1px solid #F2F2F2;
+  box-sizing: border-box;
+  border-radius: 12px;
+ }
+ .imagen{
+  width: 1350;
+  height: 55px;
+ }
+ .precio{
+  margin-left: -92px;
  }
  .select-pedido{
   background-color: transparent;
